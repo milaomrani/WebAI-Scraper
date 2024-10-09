@@ -17,7 +17,7 @@
 ## Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/AgriAI-Scraper.git
+    git clone https://github.com/yourusername/WebAI-Scraper.git
     cd AgriAI-Scraper
     ```
 2. Install required packages:
