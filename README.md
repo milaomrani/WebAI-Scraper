@@ -20,12 +20,32 @@
 ```bash
 git clone https://github.com/milaomrani/WebAI-Scraper.git
 cd webAI-Scraper
+```
 
 ### 2. Install required Python packages:
+```bash
 pip install -r requirements.txt
+```
+
 
 ### 3. Install and set up Ollama LLM:
 Download and install Ollama LLM from here.
 Start the Ollama server locally:
+```
 ollama serve
+```
 
+Confirm Ollama is running by checking localhost:11434 or by running:
+```
+ollama list
+```
+Ensure Ollama is set up to use the correct model:
+```
+ollama pull llama3.1:latest
+```
+Usage
+Running the Script in Terminal
+Set up the search_and_scrape function with your query, for example:
+```
+python run.py --query "AI applications in agriculture"
+```
